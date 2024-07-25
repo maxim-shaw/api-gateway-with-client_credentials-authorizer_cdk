@@ -89,7 +89,7 @@ class GuardianApiCognitoStack(Stack):
         )
 
 
-        # Add a access/execution policy to the lambda function 
+        # Add a access/execution policy to a lambda function 
         guardian_lambda_role = iam.Role(
             self,
             "GuardianLambdaRole",
